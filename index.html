@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IRIS Chatbot</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <h1 class="logo">IRIS Chatbot</h1>
+  </header>
+
+  <div class="main-content">
+    <!-- Left: Static Image Preview -->
+    <div class="image-section">
+      <img id="image-preview" src="" alt="Uploaded image" style="display: none;" />
+    </div>
+
+    <!-- Right: Chat Area -->
+    <div class="chat-section">
+      <div class="chat-box" id="chat-box"></div>
+      <div class="chat-input">
+        <input type="file" id="imageUpload" accept="image/*" />
+        <input type="text" id="userInput" placeholder="Type a message..." />
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">© 2025 IRIS Chatbot</footer>
+</body>
+</html>
+
+
+
